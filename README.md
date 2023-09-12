@@ -1,1 +1,2 @@
 # Password Generator Starter Code
+Utilized HTML & JS to bring functionality to this password generator webpage. This included use of functions, four-loops, prompts, and the likes which now allow users to generate a password with the criteria of their choice. 
