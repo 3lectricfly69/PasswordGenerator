@@ -68,8 +68,9 @@ let password = "";
 
 for (var i = 0 ; i < howLong; i++){
   password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
-  
 }
+document.getElementById("password").value = password;
+return password;
 };
 
 
@@ -102,7 +103,6 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
 
 
 
